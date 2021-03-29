@@ -1,1 +1,1 @@
-# readme
+# minimal HiPS server
