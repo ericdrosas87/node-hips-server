@@ -1,0 +1,33 @@
+# Input/output
+Input file: I_239_hip_main.csv
+Input type: ASCII
+ - ascii format: CSV
+ - has a header: true
+Output dir: HiPSCat_I_239_hip_main.csv
+# Input data parameters
+Catalogue name: I_239_main
+RA column name: _RAJ2000
+DE column name: _DEJ2000
+# HiPS parameters
+Target: 0.0 +0.0
+# Score parameters
+Prog. score: Plx
+ - sort order: desc
+# Algo parameters
+approx nSrc level 1: 3000
+approx nSrc level 2: 6000
+nSrc/pix min level 3: 3
+nSrc/pix max level 3: 30
+ratio l3 & 4: 0.2
+nSrc/pix min level>3: 50
+nSrc/pix max level>3: 500
+nSrc/pix minmax method: LOG
+level max: 5
+level used to compute coverage: 5
+simple mode = false
+nSrc/pix = 500
+# Other parameters
+Generate only levels 1  and 2: false
+Print informations: false
+# Additional parameters
+Number of threads: 12

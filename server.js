@@ -4,7 +4,7 @@ const cors = require("cors");
 const PORT = 5000;
 
 app.use(cors());
-app.use(express.static("CDS_P_AKARI_FIS_Color")); // OR name of folder containing HiPS data/images
+app.use(express.static("CHiPSCat_I_239_hip_main")); // OR name of folder containing HiPS data/images
 
 
 app.get('/', function (req, res) {
