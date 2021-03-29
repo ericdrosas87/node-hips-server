@@ -1,10 +1,10 @@
 # Minimal HiPS server
 
-HiPS catalog data was generated via the hipsgen-cat.jar tool provided by Aladin:
+HiPS catalog data was generated via the hipsgen-cat.jar tool provided by Aladin and following the steps in example #2:
 
 http://aladin.u-strasbg.fr/hips/HipsCat.gml
 
-Following the steps in example 2 on the above linked page. This server will also work with HiPS image data, however, the sample data set was almost 6GB and not suitable to host on github for this proof-of-concept.
+This server will also work with HiPS image data, however, the sample data set was almost 6GB and not suitable to host on github for this proof-of-concept.
 
 ## HiPS image data generation
 
